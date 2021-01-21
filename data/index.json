@@ -1,0 +1,70 @@
+{
+    "datasets": [
+        {
+            "id": "encyclopaedia_britannica:us_cities",
+            "name": "Cities in the U.S.",
+            "description": "Names of cities in the U.S. from the Encyclopaedia Britannica.",
+            "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/us_cities.tsv",
+            "webpage": "https://www.britannica.com/topic/list-of-cities-and-towns-in-the-United-States-2023068",
+            "schema": [
+                {"id": "city", "name": "City", "description": "City Name", "dtype": "text"},
+                {"id": "state", "name": "State", "description": "U.S. State Name", "dtype": "text"}
+            ],
+            "format": {
+                "type": "csv",
+                "parameters": {
+                    "delim": "\t"
+                }
+            }
+        },
+        {
+            "id": "restcountries.eu",
+            "name": "REST Countries",
+            "description": "Information about countries in the world available from the restcountries.eu project.",
+            "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/restcountries.eu.json",
+            "webpage": "https://restcountries.eu/",
+            "schema": [
+                {"id": "name", "name": "Name", "description": "Country name", "dtype": "text"},
+                {"id": "alpha2Code", "name": "Country Code (2-letters)", "description": "ISO 3166-1 2-letter country code", "dtype": "text"},
+                {"id": "alpha3Code", "name": "Country Code (3-letters)", "description": "ISO 3166-1 3-letter country code", "dtype": "text"},
+                {"id": "capital", "name": "Capital", "description": "Capital city", "dtype": "text"},
+                {"id": "region", "name": "Region", "description": "World region", "dtype": "text"},
+                {"id": "subregion", "name": "Sub-Region", "description": "Sub-region within the country region", "dtype": "text"}
+            ],
+            "format": {
+                "type": "json",
+                "parameters": {}
+            }
+        },
+        {
+            "id": "usps:street_abbrev",
+            "name": "C1 Street Suffix Abbreviations",
+            "description": "Mapping of common street type abbreviations to a standard format.",
+            "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/street_abvs.csv",
+            "webpage": "https://pe.usps.com/text/pub28/28apc_002.htm",
+            "schema": [
+                {"id": "primary_suffix", "name": "Primary Suffix", "description": "Primary Street Suffix Name", "dtype": "text"},
+                {"id": "common_suffix", "name": "Common Suffix", "description": "Commonly Used Street Suffix or Abbreviation", "dtype": "text"},
+                {"id": "standard_suffix", "name": "Standard Suffix", "description": "Postal Service Standard Suffix Abbreviation", "dtype": "text"}
+            ],
+            "format": {
+                "type": "csv",
+                "parameters": {}
+            }
+        },
+        {
+            "id": "usps:secondary_unit_designators",
+            "name": "C2 Secondary Unit Designators",
+            "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/secondary_unit_designator.csv",
+            "webpage": "https://pe.usps.com/text/pub28/28apc_003.htm",
+            "schema": [
+                {"id": "description", "name": "Description", "dtype": "text"},
+                {"id": "abbreviation", "name": "Approved Abbreviation", "dtype": "text"}
+            ],
+            "format": {
+                "type": "csv",
+                "parameters": {}
+            }
+        }
+    ]
+}
