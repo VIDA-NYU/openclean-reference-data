@@ -5,6 +5,7 @@
             "name": "Cities in the U.S.",
             "description": "Names of cities in the U.S. from the Encyclopaedia Britannica.",
             "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/us_cities.tsv",
+            "checksum": "d361873f13b867805628d7db63987392835114f13da9ead0e11ccff2946631d2",
             "webpage": "https://www.britannica.com/topic/list-of-cities-and-towns-in-the-United-States-2023068",
             "schema": [
                 {"id": "city", "name": "City", "description": "City Name", "dtype": "text"},
@@ -22,6 +23,7 @@
             "name": "REST Countries",
             "description": "Information about countries in the world available from the restcountries.eu project.",
             "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/restcountries.eu.json",
+            "checksum": "5893ebfad649533ac82a0b030a24efdd519f95a8b030a5ac9c7df37e85aad005",
             "webpage": "https://restcountries.eu/",
             "schema": [
                 {"id": "name", "name": "Name", "description": "Country name", "dtype": "text"},
@@ -41,6 +43,7 @@
             "name": "C1 Street Suffix Abbreviations",
             "description": "Mapping of common street type abbreviations to a standard format.",
             "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/street_abvs.csv",
+            "checksum": "bc1db8d6285b2970b4227b6649b4910c2a9965464ca2d9bd777351fedaa37279",
             "webpage": "https://pe.usps.com/text/pub28/28apc_002.htm",
             "schema": [
                 {"id": "primary_suffix", "name": "Primary Suffix", "description": "Primary Street Suffix Name", "dtype": "text"},
@@ -56,6 +59,7 @@
             "id": "usps:secondary_unit_designators",
             "name": "C2 Secondary Unit Designators",
             "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/secondary_unit_designator.csv",
+            "checksum": "1a141392c00cb555a02bc29c68c6d419590027d4f665855ddf04a6ea2ea9fc7b",
             "webpage": "https://pe.usps.com/text/pub28/28apc_003.htm",
             "schema": [
                 {"id": "description", "name": "Description", "dtype": "text"},
