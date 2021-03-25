@@ -26,7 +26,7 @@ The following datasets are currently contained in the repository:
 - restcountries.eu: Information about countries in the world available from the `restcountries.eu project <https://restcountries.eu/>`_.
 - usps:street_abbrev: Mapping of common street type abbreviations to a standard format parsed from the `C1 Street Suffix Abbreviations web site <https://pe.usps.com/text/pub28/28apc_002.htm>`_.
 - usps:secondary_unit_designators: `C2 Secondary Unit Designators <https://pe.usps.com/text/pub28/28apc_003.htm>`_.
-- wikipedia:us_states: List of the 50 states in the United States, with their current capital, largest city, the date they ratified the U.S. Constitution or were admitted to the Union, population and area data, and number of representative(s) in the U.S. House of Representatives (`from Wikipedia`<https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States>`_).
+- wikipedia:us_states: List of the 50 states in the United States, with their current capital, largest city, the date they ratified the U.S. Constitution or were admitted to the Union, population and area data, and number of representative(s) in the U.S. House of Representatives (`from Wikipedia <https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States>`_).
 
 
 Parser and Downloader
