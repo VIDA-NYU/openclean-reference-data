@@ -69,6 +69,35 @@
                 "type": "csv",
                 "parameters": {}
             }
+        },
+        {
+            "id": "wikipedia:us_states",
+            "name": "States and territories of the U.S.",
+            "description": "List of the 50 states in the United States, with their current capital, largest city, the date they ratified the U.S. Constitution or were admitted to the Union, population and area data, and number of representative(s) in the U.S. House of Representatives.",
+            "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/us_states.tsv",
+            "checksum": "07041161c740ab41d0c0137a67013db1d66b94e3f6b93b776ffcb1feb8d7f016",
+            "webpage": "https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States",
+            "schema": [
+                {"id": "name", "name": "Name", "description": "State Name", "dtype": "text"},
+                {"id": "postal_abbreviation", "name": "Postal Abbreviation", "dtype": "text"},
+                {"id": "capital_city", "name": "Capital", "description": "Capital City", "dtype": "text"},
+                {"id": "largest_city", "name": "Largest City", "dtype": "text"},
+                {"id": "ratification_date", "name": "Ratification Date", "description": "Date or Ratification or Admission", "dtype": "text"},
+                {"id": "population", "name": "Population", "description": "Population (2019 estimate)", "dtype": "number"},
+                {"id": "total_area_mi_2", "name": "Total Area (mi2)", "description": "Total Area in square miles", "dtype": "number"},
+                {"id": "total_area_km_2", "name": "Total Area (km2)", "description": "Total Area in square kilometers", "dtype": "number"},
+                {"id": "land_area_mi_2", "name": "Land Area (mi2)", "description": "Land Area in square miles", "dtype": "number"},
+                {"id": "land_area_km_2", "name": "Land Area (km2)", "description": "Land Area in square kilometers", "dtype": "number"},
+                {"id": "water_area_mi_2", "name": "Water Area (mi2)", "description": "Water Area in square miles", "dtype": "number"},
+                {"id": "water_area_km_2", "name": "Water Area (km2)", "description": "Water Area in square kilometers", "dtype": "number"},
+                {"id": "number_of_reps", "name": "Number of Reps.", "description": "Number of representative(s) in the U.S. House of Representatives", "dtype": "number"}
+            ],
+            "format": {
+                "type": "csv",
+                "parameters": {
+                    "delim": "\t"
+                }
+            }
         }
     ]
 }

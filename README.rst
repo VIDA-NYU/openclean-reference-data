@@ -3,10 +3,10 @@ openclean - Reference Data Repository
 =====================================
 
 .. image:: https://img.shields.io/badge/License-BSD-green.svg
-    :target: https://github.com/VIDA-NYU/openclean-core/blob/master/LICENSE
+    :target: https://github.com/VIDA-NYU/openclean-reference-data/blob/master/LICENSE
 
 
-.. figure:: https://github.com/VIDA-NYU/openclean-core/blob/master/docs/graphics/logo.png
+.. figure:: https://github.com/VIDA-NYU/openclean-reference-data/blob/master/docs/graphics/logo.png
     :align: center
     :alt: openclean Logo
 
