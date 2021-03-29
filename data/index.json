@@ -1,6 +1,21 @@
 {
     "datasets": [
         {
+            "id": "company_suffixes",
+            "name": "Company Suffixes",
+            "description": "company suffixes extracted using regex.",
+            "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/company_suffies.csv",
+            "checksum": "7a6c6eb5d4ba8d7cfd02dae4d722069b15852f1a667af9fcdaa64f512939654b",
+            "webpage": "https://www.harborcompliance.com/information/company-suffixes",
+            "schema": [
+                {"id": "company_suffix", "name": "Suffix", "description": "Company Suffix", "dtype": "text"}
+            ],
+            "format": {
+                "type": "csv",
+                "parameters": {}
+            }
+        },
+        {
             "id": "encyclopaedia_britannica:us_cities",
             "name": "Cities in the U.S.",
             "description": "Names of cities in the U.S. from the Encyclopaedia Britannica.",
