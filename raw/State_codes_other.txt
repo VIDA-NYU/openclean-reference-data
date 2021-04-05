@@ -1,0 +1,17 @@
+ABAlberta
+BCBritish Columbia
+FOForeign
+MBManitoba
+MXMexico
+NBNew Brunswick
+NFNewfoundland
+NTNorthwest Territories
+NSNova Scotia
+ONOntario
+PEPrince Edward Island
+QBQuebec
+SKSaskatchewan
+GVU.S. Government
+DPU.S. State Dept.
+DCWashington D.C.
+YTYukon Territory

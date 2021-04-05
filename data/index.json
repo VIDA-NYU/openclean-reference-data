@@ -34,6 +34,23 @@
             }
         },
         {
+            "id": "nyc.gov:dof:state_codes",
+            "name": "NYC Finance - State Codes",
+            "description": "List of license plate state codes from the NYC Department of Finance.",
+            "url": "https://raw.githubusercontent.com/VIDA-NYU/openclean-reference-data/master/data/nyc.gov.state_codes.csv",
+            "checksum": "ad557aebf3b0497ccc1e6d3fdeb7e12eb7a147e7628d8b66be6c4a4b91d25905",
+            "webpage": "http://www.nyc.gov/html/dof/html/pdf/faq/stars_codes.pdf",
+            "schema": [
+                {"id": "code", "name": "State Code", "dtype": "text"},
+                {"id": "name", "name": "Name", "description": "State Name", "dtype": "text"},
+                {"id": "type", "name": "State Type", "description": "Distinguish between U.S. states ('US') and other states ('Other')", "dtype": "text"}
+            ],
+            "format": {
+                "type": "csv",
+                "parameters": {}
+            }
+        },
+        {
             "id": "restcountries.eu",
             "name": "REST Countries",
             "description": "Information about countries in the world available from the restcountries.eu project.",
