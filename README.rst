@@ -14,7 +14,7 @@ openclean - Reference Data Repository
 About
 =====
 
-This repository contains a collection of reference datasets that can be used for different data cleaning tasks. The repository is part of the `openclean project <https://github.com/VIDA-NYU/openclean-core/>`_. In **openclean** the datasets can easily be downloaded and accessed using the ``openclean.data.masterdata.MasterdataStore``.
+This repository contains a collection of reference datasets that can be used for different data cleaning tasks. The repository is part of the `openclean project <https://github.com/VIDA-NYU/openclean-core/>`_. In **openclean** the datasets can easily be downloaded and accessed using the ``openclean.data.refdata.RefStore``.
 
 
 Datasets
