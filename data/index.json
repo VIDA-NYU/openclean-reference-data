@@ -134,9 +134,9 @@
         {
             "id": "admins",
             "name": "Geo Administrative Levels",
-            "url": "https://osf.io/y3q8e/download",
-            "checksum": "4a1fd5f3891eaf5deffa3c69c8c18fc3b254847be327ec6961b4a13a180ae2ef",
-            "webpage": "https://osf.io/y3q8e/",
+            "url": "https://spire.remram.fr/datamart-geo/admins.gpkg.gz",
+            "checksum": "800e02dc34884f73169987c90f61b1c252ec3eab708d390720b8290b7fefd7ce",
+            "webpage": "https://gitlab.com/ViDA-NYU/auctus/datamart-geo",
             "schema": [
                 {"id": "id", "name": "id", "description": "Primary Key", "dtype": "number"},
                 {"id": "name", "name": "name", "dtype": "text"},
@@ -155,7 +155,7 @@
             ],
             "format": {
                 "type": "sqlite",
-		        "parameters": {
+                "parameters": {
                     "table": "admins"
                 }
             }
